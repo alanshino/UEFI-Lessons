@@ -182,3 +182,10 @@ EDK2 specifications (https://github.com/tianocore/tianocore.github.io/wiki/EDK-I
 - [CrScreenshotDxe](https://github.com/LongSoft/CrScreenshotDxe) - UEFI DXE driver to take screenshots from GOP-compatible graphic consoles
 - [RU.EFI](http://ruexe.blogspot.com/) - "Read Universal" - UEFI application to debug UEFI interfaces
 - [PCD_TABLE_parser](https://github.com/Kostr/PCD_TABLE_parser) - Parser for Platform Configuration Database (PCD) tables created in the EDKII build process
+
+# Run on Fedora 41
+EDKII can be executed in any Linux distribution. Since most of the current introductions focus on the Ubuntu distribution, here is a new introduction using Fedora as a test.
+A shell script will be provided here, and executing this script will automatically detect missing dependency packages.
+```
+bash init_fedora_env.sh
+```
