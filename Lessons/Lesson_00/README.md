@@ -159,8 +159,10 @@ Mapping table
 Press ESC in 1 seconds to skip startup.nsh or any other key to continue.
 Shell>
 ```
+Because the `-nographic` option is specified, it will be simulated in the current shell.
 
-To exit QEMU run `CTRL+A - X`
+To exit QEMU run `CTRL+A - x`
+It should be noted here that the instructions to close qemu are all lowercase.
 
 The QEMU run script can be simplified to:
 ```
