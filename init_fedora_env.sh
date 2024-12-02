@@ -6,7 +6,7 @@ echo "Start detecting dependency packages"
 
 # Check whether the relevant dependencies have been installed
 groupkg="development-tools"
-depenpkg=("nasm" "automake" "flex" "libX11-devel" "libXext-devel" "qemu" "uuid-devel" "git" "gcc-c++" "libuuid" "libuuid-devel")
+depenpkg=("nasm" "automake" "flex" "libX11-devel" "libXext-devel" "qemu" "uuid-devel" "git" "gcc-c++" "libuuid" "libuuid-devel" "acpica-tools")
 
 if dnf group list --installed | grep -q "$groupkg"; then
   echo -e "\e[32mGroup package $groupkg installed\e[0m"
