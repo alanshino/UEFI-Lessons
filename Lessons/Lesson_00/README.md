@@ -10,6 +10,12 @@ This is how you install these packages in Ubuntu:
 $ sudo apt-get install -y nasm iasl uuid-dev python3
 ```
 
+If you use Fedora, here are the packages you need:
+```
+$ sudo dnf install -y nasm libX11-devel libXext-devel uuid-devel libuuid-devel gcc-c++ acpica-tools
+$ sudo dnf group install -y development-tools
+```
+
 Also it might be necessary to install `python3-distutils` package:
 ```
 $ sudo apt-get install -y python3-distutils
